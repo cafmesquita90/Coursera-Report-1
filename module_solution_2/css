@@ -1,1 +1,9 @@
+p {color: green; }
+@media (min-width:1200) {
+I love coffee
+}
 
+@media (min-width: 992px) and (max-width: 1199px) {
+My favotite type is Light Roast Beans
+
+}
