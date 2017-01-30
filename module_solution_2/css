@@ -1,2 +1,4 @@
-
-
+@media (min-width: 1200px) {
+float: right;
+    border: 1px navy blue;
+  
