@@ -19,7 +19,7 @@ border: 1px solid green;
 }
 
 @media (min-width: 949px) and (max-width: 767px) {
-float: right;
+float: righcxxcxct;
 boarder: 1px red;
 }
 
@@ -27,3 +27,4 @@ boarder: 1px red;
 
 
   
+hhh
