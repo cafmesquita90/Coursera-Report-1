@@ -1,8 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Taste the Rainbow</title>
+<style>
+
 p {
   border:2px solid black;
   background-color: #yellow;
   width: 100%;
-  height: 125px;
+  height: 100px;
   margin-right: auto;
   margin-left: auto;
   font-family: Arial;
@@ -26,5 +33,3 @@ boarder: 1px red;
 
 
 
-  
-hhh
