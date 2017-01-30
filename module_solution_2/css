@@ -18,6 +18,11 @@ float: right;
 border: 1px solid green;
 }
 
+@media (min-width: 949px) and (max-width: 767px) {
+float: right;
+boarder: 1px red;
+}
+
 
 
 
