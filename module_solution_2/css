@@ -5,7 +5,6 @@
 <title>Responsive Layout</title>
 <style>
 
-/********** Base styles **********/
 * {
   box-sizing: border-box;
 }
@@ -24,16 +23,14 @@ p {
   color: white;
 }
 
-/* Simple Responsive Framework. */
 .row {
   width: 100%;
 }
 
-/********** Large devices only **********/
 @media (min-width: 1200px) {
   .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
     float: left;
-    border: 1px solid green;
+    border: 1px navy blue;
   }
   .col-lg-1 {
     width: 8.33%;
@@ -73,7 +70,6 @@ p {
  }
 }
 
-/********** Medium devices only **********/
 @media (min-width: 950px) and (max-width: 1199px) {
   .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
     float: left;
@@ -117,15 +113,17 @@ p {
   }
 }
 
+
+
 </style>
 </head>
 <body>
-<h1>Responsive Layout</h1>
+<h1>Coffee Menu</h1>
 
 <div class="row">
-  <div class="col-lg-6 col-md-6"><p>Cappuccino</p></div>
-  <div class="col-lg-6 col-md-6"><p>Latte</p></div>
-  <div class="col-lg-6 col-md-6"><p> Caffè mocha</p></div>
+  <div class="col-lg-6 col-m<img src="url" alt="some_text" style="width:width;height:height;"><p>Cappuccino: An Italian coffee drink that is traditionally prepared with double espresso, hot milk, and steamed milk foam <img src="https://upload.wikimedia.org/wikipedia/commons/e/ed/Wet_Cappuccino_with_heart_latte_art.jpg" alt="Cappuccino" height="100" width="150"></p></div>
+  <div class="col-lg-6 col-md-6"><p>Latte: A latte is a coffee drink made with espresso and steamed milk <img src="http://www.caffecoffea.com/wp-content/uploads/2014/11/cafe-latte.jpg" alt="Smiley face" height="100" width="150"> </p></div>
+  <div class="col-lg-6 col-md-6"><p> Caffè mocha: A caffè mocha, also called mocaccino, is a chocolate-flavored variant of a caffè latte <img src="http://www.caffeineinformer.com/wp-content/caffeine/cafe-mocha.jpg" alt="Smiley face" height="100" width="125"></p></div>
   </div>
 
 </body>
